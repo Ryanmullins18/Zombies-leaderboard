@@ -7,9 +7,9 @@ function NavBar({token, setToken}) {
       return(
       <nav>
         <NavLink to="/">Home</NavLink>
-        <NavLink>Submit</NavLink>
-        <NavLink>Sker</NavLink>
-        <NavLink>Search Player</NavLink>
+        <NavLink to="/submit">Submit</NavLink>
+        <NavLink to="/sker">Sker</NavLink>
+        <NavLink to="/search">Search Player</NavLink>
         
       </nav>
       )
