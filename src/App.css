@@ -33,7 +33,7 @@ nav a:hover {
   font-family: 'Bloody', sans-serif; 
   font-size: larger;   
   color: rgb(245, 45, 45); 
-                                     
+                                  
 }
 
 .news{
@@ -112,7 +112,10 @@ height: 300px;
   opacity: .5;
   filter: alpha(opacity=40);
   font-size: large;
+  
 }
+
+
 .lb-do:hover{
   grid-column-start: 2;
   grid-column-end: 3;

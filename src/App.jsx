@@ -7,6 +7,10 @@ import Submission from './components/Submission'
 import Sker from './components/Sker'
 import SearchPlayer from './components/SearchPlayer'
 import Leaderboards from './components/Leaderboards'
+import Challenges from './components/Challenges'
+import EEspeedrun from './components/EEspeedrun'
+import FirstRoom from './components/FirstRoom'
+import HighRound from './components/HighRound'
 
 function App() {
   
@@ -20,6 +24,10 @@ function App() {
         <Route path= '/sker' element= {<Sker />}/>
         <Route path= '/search' element= {<SearchPlayer />}/>
         <Route path= '/leaderboards' element= {<Leaderboards />}/>
+        <Route path= '/challenges' element= {<Challenges />}/>
+        <Route path= '/eespeedrun' element= {<EEspeedrun />}/>
+        <Route path= '/firstroom' element= {<FirstRoom />}/>
+        <Route path= '/highround' element= {<HighRound />}/>
         
       </Routes>
     </div>
