@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Submission from './components/Submission'
 import Sker from './components/Sker'
 import SearchPlayer from './components/SearchPlayer'
+import Leaderboards from './components/Leaderboards'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path= '/submit' element= {<Submission />}/>
         <Route path= '/sker' element= {<Sker />}/>
         <Route path= '/search' element= {<SearchPlayer />}/>
+        <Route path= '/leaderboards' element= {<Leaderboards />}/>
         
       </Routes>
     </div>

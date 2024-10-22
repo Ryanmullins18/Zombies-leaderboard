@@ -7,6 +7,7 @@
 
 
 
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -23,8 +24,18 @@ nav {
   background-color: #272525;
   height: 30px;
   font-size: larger;
-  z-index: 1;
+  z-index: 1;                                           
 }
+nav a{
+  color: white;
+}
+nav a:hover {  
+  font-family: 'Bloody', sans-serif; 
+  font-size: larger;   
+  color: rgb(245, 45, 45); 
+                                     
+}
+
 .news{
   border: solid white;
 }
@@ -48,4 +59,425 @@ nav {
   column-gap: 50px;
 }
 
+.leaderboard-maps{
+  display: grid;
+  column-gap: 40px;
+  row-gap: 40px;
+  
+}
+.lb-title{
+  font-family: 'Bloody', sans-serif;
+        color: rgb(245, 45, 45);                                        
+}
+
+.leaderboard-maps img{
+width: 400px;
+height: 300px;
+}
+
+/* Ascension  */
+.lb-asc{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+  
+}
+.lb-asc:hover{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.lb-asc h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ 
+ opacity: .7;
+}
+
+/* dead ops */
+.lb-do{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-do:hover{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.lb-do h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* der eisendrache */
+.lb-der{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  
+}
+.lb-der:hover{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.lb-der h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* giant  */
+.lb-giant{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-giant:hover{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.lb-giant h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* gorod */
+.lb-gorod{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-gorod:hover{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.lb-gorod h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* kino */
+.lb-kino{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  
+}
+.lb-kino:hover{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.lb-kino h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* moon  */
+.lb-moon{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-moon:hover{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.lb-moon h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* nacht */
+.lb-nacht{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-nacht:hover{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.lb-nacht h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* origins */
+.lb-ori{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  
+}
+.lb-ori:hover{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.lb-ori h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* revelations */
+.lb-rev{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-rev:hover{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.lb-rev h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+
+/* shadows */
+.lb-shad{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-shad:hover{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.lb-shad h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* shang */
+.lb-shang{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  
+}
+.lb-shang:hover{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.lb-shang h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* shino  */
+.lb-shino{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-shino:hover{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.lb-shino h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* verruckt */
+.lb-ver{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  font-size: large;
+}
+.lb-ver:hover{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.lb-ver h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
+/* zets */
+.lb-zets{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  
+}
+.lb-zets:hover{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  position: relative;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.lb-zets h2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
+  background-color: black;
+ border-radius: 20%;
+ opacity: .7;
+}
 
