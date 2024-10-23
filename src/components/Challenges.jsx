@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
-import round from "../assets/round.png"
-import help from "../assets/help.png"
-import eesr from "../assets/eesr.png"
+import round from "../assets/images/round.png"
+import help from "../assets/images/help.png"
+import eesr from "../assets/images/eesr.png"
 
 function Challenges(){
     let navigate= useNavigate()

@@ -12,6 +12,8 @@ import EEspeedrun from './components/EEspeedrun'
 import FirstRoom from './components/FirstRoom'
 import HighRound from './components/HighRound'
 import Profile from './components/Profile'
+import ReviewSubmissionTable from './components/ReviewSubmissionTable'
+import ReviewSubmission from './components/ReviewSubmission'
 
 function App() {
   
@@ -30,8 +32,8 @@ function App() {
         <Route path= '/firstroom' element= {<FirstRoom />}/>
         <Route path= '/highround' element= {<HighRound />}/>
         <Route path= '/profile' element= {<Profile />}/>
-
-        
+        <Route path= '/review' element= {<ReviewSubmissionTable />}/>
+        <Route path= '/review/:id' element= {<ReviewSubmission />}/>
       </Routes>
     </div>
   )
