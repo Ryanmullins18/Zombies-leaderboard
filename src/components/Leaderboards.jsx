@@ -23,63 +23,63 @@ function Leaderboards(){
             <h1 className="lb-title">Black Ops 3 Leaderboards</h1>
         <div className="leaderboard-maps">
             <div className="lb-asc">
-                <img src={ascension} onClick={() => navigate(`/challenges`)} alt="" />
+                <button> <img src={ascension} onClick={() => navigate(`/challenges`)} alt="" /> </button>
                 <h2>Ascension</h2>
             </div>
             <div className="lb-do">
-                <img src={deadOps} onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={deadOps} onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Dead Ops 2</h2>
             </div>
             <div className="lb-der">
-                <img src={derEisen} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={derEisen} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Der Eisendrache</h2>
             </div>
             <div className="lb-giant">
-                <img src={giant} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={giant} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>The Giant</h2>
             </div>
             <div className="lb-gorod" >
-                <img  src={gorod} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={gorod} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Gorod Krovi</h2>
             </div>
             <div className="lb-kino">
-                <img  src={kino} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={kino} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Kino der Toten</h2>
             </div>
             <div className="lb-moon">
-                <img  src={moon} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={moon} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Moon</h2>
             </div>
             <div className="lb-nacht" >
-                <img src={nacht} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={nacht} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Nacht der Untoten</h2>
             </div>
             <div className="lb-ori">
-                <img src={origins} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={origins} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Origins</h2>
             </div>
             <div className="lb-rev">
-                <img  src={revelations} alt="" onClick={() => navigate(`/challenges`)}/>
-                <h2>Revelations</h2>
+                <button> <img  src={revelations} alt="" onClick={() => navigate(`/challenges`)}/> </button>
+                <h2>Revelations</h2> 
             </div>
             <div className="lb-shad">
-                <img src={shadows} onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={shadows} onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Shadows of Evil</h2>
             </div>
             <div className="lb-shang">
-                <img  src={shang} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={shang} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Shangri-La</h2>
             </div>
             <div className="lb-shino">
-                <img  src={shiNo} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={shiNo} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Shi No Numa</h2>
             </div>
             <div className="lb-ver">
-                <img src={verruckt} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img src={verruckt} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Verruckt</h2>
             </div>
             <div className="lb-zets">
-                <img  src={zets} alt="" onClick={() => navigate(`/challenges`)}/>
+                <button> <img  src={zets} alt="" onClick={() => navigate(`/challenges`)}/> </button>
                 <h2>Zetsubou No Shima</h2>
             </div>
         </div>

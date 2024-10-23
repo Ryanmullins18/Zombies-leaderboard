@@ -11,6 +11,7 @@ import Challenges from './components/Challenges'
 import EEspeedrun from './components/EEspeedrun'
 import FirstRoom from './components/FirstRoom'
 import HighRound from './components/HighRound'
+import Profile from './components/Profile'
 
 function App() {
   
@@ -28,6 +29,8 @@ function App() {
         <Route path= '/eespeedrun' element= {<EEspeedrun />}/>
         <Route path= '/firstroom' element= {<FirstRoom />}/>
         <Route path= '/highround' element= {<HighRound />}/>
+        <Route path= '/profile' element= {<Profile />}/>
+
         
       </Routes>
     </div>

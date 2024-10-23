@@ -1,22 +1,34 @@
 import { useNavigate } from "react-router-dom"
+import round from "../assets/round.png"
+import help from "../assets/help.png"
+import eesr from "../assets/eesr.png"
 
 function Challenges(){
     let navigate= useNavigate()
     return(
         <section>
-            <div>
-                <button onClick={()=>{navigate("/highround")}}>
-                    High Round
-                </button>
-                <button onClick={()=>{navigate("/firstroom")}}>
-                    First room
-                </button>
-                <button onClick={()=>{navigate("/eespeedrun")}}>
-                    EE Speedrun
-                </button>
+            <h1 className="lb-title">Challenge Record Types</h1>
+            <div className="challenges">
+                <div className="chal1">
+                    <button onClick={()=>{navigate("/highround")}}>
+                        <img src={round} alt="" />
+                        <h2 className="chalT">High Round</h2>
+                    </button>
+                </div>
+                <div className="chal2">
+                    <button onClick={()=>{navigate("/firstroom")}}>
+                        <img src={help} alt="" />
+                        <h2 className="chalT">First Room</h2>
+                    </button>
+                </div>
+                <div className="chal3">
+                    <button onClick={()=>{navigate("/eespeedrun")}}>
+                        <img src={eesr} alt="" />
+                        <h2 className="chalT">EE Speedrun</h2>
+                    </button>
+                </div>
             </div>
         <div>
-            challenges
             <button onClick={()=>{navigate("/leaderboards")}}>Back to maps</button>
         </div>
         </section>
